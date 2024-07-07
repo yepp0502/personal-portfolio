@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'MigraItalicBold';
+    src:
+        url('../Assets/MigraItalic-ExtraboldItalic.0be511d99403025e4262.ttf');
+ }
+ 
+ 
+ @font-face {
+    font-family: 'MigraItalicLight';
+    src:
+        url('../Assets/MigraItalic-ExtralightItalic.96f5545f2eb857128551.ttf');
+ }
+ 
+ 
+ @font-face {
+    font-family: 'SaintGeorge';
+    src: local('SaintGeorge'),
+        url('../Assets/SaintGeorge-LowercaseStencil.6a0acba5b7c31a6628c5.ttf');
+ }
+
+ *{
+    margin: 0;
+    padding: 0;
+    background-color: #D46448;
+    color: #fff;
+ }
+ 
+ 
+ .home-container {
+    /* border: 1px solid blue; */
+    margin-top: 1em;
+    display: block;
+    text-align: center;
+ }
+ 
+ 
+ .home-container .child-container {
+    /* border: 1px solid black; */
+    display: flex;
+    text-align: center;
+    padding: 0 30%;
+ }
+ 
+ 
+ .home-container h1 {
+    font-family: 'SaintGeorge';
+    font-size: 55px;
+    margin-top: 0.5em;
+ }
+ 
+ 
+ .nav-el {
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 38px;
+    font-family: 'MigraItalicLight';
+    font-weight: 900;
+ }
