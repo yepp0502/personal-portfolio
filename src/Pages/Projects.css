@@ -1,0 +1,16 @@
+.projects-container {
+    border: 1px dotted black;
+    width: 2px;
+    position: absolute;
+    z-index: 2;
+
+}
+
+.projects-container .year-slider {
+    border: 1px solid blue;
+}
+
+.projects-container .points-container .points {
+    border: 3px solid #fff;
+    border-radius: 50%;
+}

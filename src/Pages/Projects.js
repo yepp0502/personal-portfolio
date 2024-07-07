@@ -1,6 +1,6 @@
 import React from 'react';
 import { useEffect, useRef, createElement, useState, useCallback } from 'react';
-import { projectData } from './projectsData.js';
+import { projectData } from './ProjectsData.js';
 import flashImage from '../Assets/Flash.png';
 import './Projects.css';
 
@@ -29,7 +29,6 @@ export default function Projects() {
             dot2El.style.opacity = 0.55;
         }
     }, [currentProject, setCurrentProject]);
-
 
     const handleClick2Dot = useCallback(() => {
         const dot1El = document.getElementById('dot1');
@@ -342,7 +341,7 @@ export default function Projects() {
         const projElements = [];
         
         if (i > -1) {
-            projectData[i].forEach((p) => {
+            projectData[i].forEach((p, key) => {
                 function manageTags () {
                     const tags = [];
                     if (p.webTag) {
@@ -370,7 +369,7 @@ export default function Projects() {
                 }
                 projElements.push(
                     // set current visibility
-                    <div className="info-container" id={p.id} style={{ visibility: currentVisiblityInfo }}>
+                    <div className="info-container" id={key} style={{ visibility: currentVisiblityInfo }}>
                         <div className="info">
                             <p id="title"><a href={p.a} target="_blank">{p.title}</a></p>
                             <p id="date">{p.date}</p>
