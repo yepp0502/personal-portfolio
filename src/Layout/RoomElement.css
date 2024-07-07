@@ -1,0 +1,12 @@
+.roomEl {
+    padding: 0;
+    position: absolute;
+    margin-top: 1em;
+    margin-left: 25vh;
+    background-color: transparent;
+    visibility: visible;
+    /* border: 1px solid black; */
+    width: 25vh;
+    z-index: -1;
+ }
+ 
