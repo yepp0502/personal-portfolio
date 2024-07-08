@@ -3,13 +3,14 @@
 .education-container {
     /* border: 1px solid black; */
     position: absolute;
-    margin: -16em 0 0 -55em;
+    margin: -14.5em 0 0 -52em;
     text-align: left;
     font-family: "Gupter", serif;
     font-weight: 400;
-    font-size: 19.5px;
-    line-height: 1.1em;
+    font-size: 20px;
+    line-height: 1.15em;
     overflow: hidden;
+    background-color: transparent;
 }
 
 b {
@@ -39,14 +40,14 @@ b {
 .education-container .button-container {
     display: flex;
     justify-content: space-around;
-    margin-top: 1.8em;
+    margin-top: 2em;
     padding: 0 10em;
 }
 
 .education-container .button-container .button {
     background-color: #fff;
-    width: 0.6em;
-    height: 0.6em;
+    width: 0.55em;
+    height: 0.55em;
     border-radius: 50%;
 }
 

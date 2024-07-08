@@ -7,7 +7,7 @@ import Education from './Pages/Education';
 import Projects from './Pages/Projects'
 import WorkExperience from './Pages/WorkExperience'
 import Header from './Layout/Header'
-// import RoomElement from './Layout/RoomElement';
+import RoomElement from './Layout/RoomElement';
 import reportWebVitals from './reportWebVitals';
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
           <Route path="/work-experience" element={<WorkExperience />} />
         </Route>
       </Routes>
-      {/* <RoomElement /> */}
+      <RoomElement />
     </BrowserRouter>
   );
  }

@@ -48,17 +48,17 @@ export default function RoomElement() {
                 enlargeObj();
                 break;
             case '/education':
-                setPosition({ top: '10.5em', left: '24em' });
+                setPosition({ top: '12.5em', left: '23.5em' });
                 setVisibility('visible');
                 resizeObj();
                 break;
             case '/projects':
-                setPosition({ top: '10.5em', left: '24em' });
+                setPosition({ top: '12.5em', left: '23.5em' });
                 setVisibility('visible');
                 resizeObj();
                 break;
             case '/work-experience':
-                setPosition({ top: '10.5em', left: '24em' });
+                setPosition({ top: '10.5em', left: '23em' });
                 setVisibility('visible');
                 resizeObj();
                 break;

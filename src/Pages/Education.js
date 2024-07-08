@@ -29,6 +29,8 @@ export default function Education() {
             }
         }
 
+        handleButton1();
+        
         if (button1) {
             button1.addEventListener('click', handleButton1);
         }

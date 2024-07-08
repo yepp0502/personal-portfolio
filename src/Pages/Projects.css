@@ -1,14 +1,196 @@
 .projects-container {
-    border: 1px dotted black;
+    /* border: 1px dotted black; */
     position: absolute;
-    margin-left: -50em;
+    font-family: "Gupter", serif;
+    margin: -23.5em 0 0 -70em;
+    background-color: transparent;
+    width: 57em;
 }
 
 .projects-container .year-slider {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
+    width: 18em;
+    margin-left: 19.5em;
+    font-size: 24px;
+    font-weight: 500;
+    display: block;
 }
 
-.projects-container .points-container .points {
+.projects-container .year-slider .points-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 2em;
+}
+
+.projects-container .year-slider .points-container .points {
     border: 3px solid #fff;
     border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    z-index: 1;
+
+    background: linear-gradient(to right, #fff 50%,#D46448 50%);
+    background-position: right bottom;
+    background-size: 36px 36px;
+    transition: all .3s ease-out;
+}
+
+.projects-container .year-slider #line {
+    border: 2px solid white;
+    position: absolute;
+    width: 11em;
+    margin-top: -0.55em;
+    margin-left: 3em;
+}
+
+.projects-container .year-slider .years-container {
+    margin-top: 0.4em;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 2em;
+}
+
+.projects-container .content-container {
+    background-color: transparent;
+    display: flex;
+    margin-left: 4em;
+}
+.projects-container .content-container .slider {
+    width: 2em;
+    display: block;
+    margin: auto 0;
+}
+
+.projects-container .dot {
+    background-color: #fff;
+    width: 0.85em;
+    height: 0.85em;
+    text-decoration: none;
+    display: block;
+    
+    border: none;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 0.6em;
+}
+
+.projects-container .content-container .info-place {
+    background-color: transparent;
+    width: 30em;
+    height: 24em;
+}
+
+.projects-container .info-container{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 22em;
+    text-align: left;
+    font-size: 18px;
+    border-radius: 5%;
+    padding: 0.5em 0.5em 1.8em 1.4em;
+    visibility: hidden;
+}
+
+.projects-container .info-container .info {
+    background-color: transparent;
+    margin-bottom: 0.5em;
+}
+
+.projects-container .info-container .info #title {
+    background-color: transparent;
+    margin-top: 0.5em;
+    font-weight: 900;
+    font-size: 21px;
+}
+
+.projects-container .info-container .info a {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.projects-container .info-container .info a:hover {
+    text-decoration: underline;
+}
+
+.projects-container .info-container .info #date {
+    background-color: transparent;
+    margin-bottom: 0.5em;
+}
+
+.projects-container .info-container .info #bullet {
+    background-color: transparent;
+    margin-left: 0.5em;
+}
+
+.projects-container .info-container .info #point {
+    background-color: transparent;
+    margin-bottom: 0.4em;
+}
+
+.projects-container .info-container .tags {
+    background-color: transparent;
+    margin-top: 1.2em;
+}
+.projects-container .info-container .tags ul{
+    background-color: transparent;
+    list-style: none;
+    display: inline-flex;
+}
+
+.projects-container .info-container .tags li {
+    background-color: transparent;
+    padding-left: 1.5em;
+    padding-right: 1em;
+    margin-top: -1em;
+}
+
+.projects-container .info-container .tags li span {
+    font-weight: 600;
+    background-color: transparent;
+}
+
+.projects-container .info-container .tags li:before {
+    background-color: transparent;
+    content: "•";
+    font-size: 2.5em;
+    padding-right: 5px;
+    margin: -0.32em 0 0 -0.5em;
+    position: absolute;
+}
+
+.projects-container .info-container .tags #tag1 {
+    color: #FFE500;
+}
+.projects-container .info-container .tags #tag2 {
+    color: #10DB55;
+}
+.projects-container .info-container .tags #tag3 {
+    color: #ff7c01;
+}
+.projects-container .info-container .tags #tag4 {
+    color: #200EEF;
+}
+
+.help-container {
+    width: 20em;
+    display: flex;
+    padding: 0.5em 1em;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 7px;
+    margin-left: 1.5em;
+    margin-top: 1.8em;
+}
+
+.help-container #flash {
+    background-color: transparent;
+    width: 2.5em;
+    margin-right: 0.5em;
+}
+
+.help-container p {
+    background-color: transparent;
+    margin: auto 0;
+    font-size: 18px;
+    font-weight: 600;
 }
