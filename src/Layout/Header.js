@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 import './Header.css';
 
 export default function Header() {
@@ -10,6 +10,7 @@ export default function Header() {
                 <Link to="/education" className='nav-el'>education</Link>
                 <Link to="/projects" className='nav-el'>projects</Link>
                 <Link to="/work-experience" className='nav-el'>work experience</Link>
+                <Outlet />
             </div>
         </div>
     );
