@@ -29,7 +29,7 @@ import reportWebVitals from './reportWebVitals';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='yepp0502/personal-portfolio'>
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/*"element={<MainLayout />} />

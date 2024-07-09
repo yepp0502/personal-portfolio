@@ -1,7 +1,7 @@
 {
   "name": "personal-portfolio",
   "version": "0.1.0",
-  "homepage": "https://github.com/yepp0502/personal-portfolio.git",
+  "homepage": "https://github.com/yepp0502/personal-portfolio",
   "private": true,
   "dependencies": {
     "@splinetool/react-spline": "^4.0.0",
