@@ -60,7 +60,7 @@ To view and interact with this portfolio locally:
 ## Deployment
 
 This portfolio is deployed using GitHub Pages. You can view it live at:
-`https://github.com/yepp0502/personal-portfolio.git`
+`https://yepp0502.github.io/personal-portfolio/`
 
 ## Technologies Used
 
@@ -71,7 +71,7 @@ This portfolio is deployed using GitHub Pages. You can view it live at:
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contact
 
