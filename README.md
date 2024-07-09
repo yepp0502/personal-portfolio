@@ -14,9 +14,7 @@ Welcome to my personal portfolio! This project showcases my academics, work, ski
 - Click **here** to view the home page.
 
 ### Home
-
 - Hover on the header bottom part 'portfolio' to see a creative highlighted animation and click on that header to access my resume.
-
 - Click on one of the navigation links **education**, **projects**, or **work experience** to access those pages.
 
 ### 3D Room Interaction
