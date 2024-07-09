@@ -1,4 +1,4 @@
-# My Portfolio
+# Personal Portfolio
 
 Welcome to my personal portfolio! This project showcases my academics, work, skills, and accomplishments in a creative and interactive way.
 
