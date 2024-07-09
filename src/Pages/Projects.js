@@ -371,7 +371,7 @@ export default function Projects() {
                     // set current visibility
                     <div className="info-container" id={p.id} style={{ visibility: currentVisiblityInfo }}>
                         <div className="info">
-                            <p id="title"><a href={p.a} target="_blank">{p.title}</a></p>
+                            <p id="title"><a href={p.a} target="_blank" rel="noreferrer">{p.title}</a></p>
                             <p id="date">{p.date}</p>
                             <ul id="bullet">
                                 <li id="point">{p.point1}</li>
