@@ -63,7 +63,8 @@ This portfolio is deployed using GitHub Pages. You can view it live at:
 
 - React
 - React Router
-- Three.js (for 3D room interaction)
+- Spline
+- Spline.js (for 3D room interaction)
 - CSS for styling
 
 ## License
