@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/yepp0502/personal-portfolio.git/static/css/main.bd503ffb.css",
-    "main.js": "/yepp0502/personal-portfolio.git/static/js/main.2b4501d5.js",
+    "main.js": "/yepp0502/personal-portfolio.git/static/js/main.def7c23b.js",
     "static/js/208.6e6da685.chunk.js": "/yepp0502/personal-portfolio.git/static/js/208.6e6da685.chunk.js",
     "static/js/293.fc420121.chunk.js": "/yepp0502/personal-portfolio.git/static/js/293.fc420121.chunk.js",
     "static/js/917.8329b092.chunk.js": "/yepp0502/personal-portfolio.git/static/js/917.8329b092.chunk.js",
@@ -16,7 +16,7 @@
     "static/media/SaintGeorge-LowercaseStencil.ttf": "/yepp0502/personal-portfolio.git/static/media/SaintGeorge-LowercaseStencil.6a0acba5b7c31a6628c5.6a0acba5b7c31a6628c5.ttf",
     "index.html": "/yepp0502/personal-portfolio.git/index.html",
     "main.bd503ffb.css.map": "/yepp0502/personal-portfolio.git/static/css/main.bd503ffb.css.map",
-    "main.2b4501d5.js.map": "/yepp0502/personal-portfolio.git/static/js/main.2b4501d5.js.map",
+    "main.def7c23b.js.map": "/yepp0502/personal-portfolio.git/static/js/main.def7c23b.js.map",
     "208.6e6da685.chunk.js.map": "/yepp0502/personal-portfolio.git/static/js/208.6e6da685.chunk.js.map",
     "293.fc420121.chunk.js.map": "/yepp0502/personal-portfolio.git/static/js/293.fc420121.chunk.js.map",
     "917.8329b092.chunk.js.map": "/yepp0502/personal-portfolio.git/static/js/917.8329b092.chunk.js.map",
@@ -29,6 +29,6 @@
   },
   "entrypoints": [
     "static/css/main.bd503ffb.css",
-    "static/js/main.2b4501d5.js"
+    "static/js/main.def7c23b.js"
   ]
 }
