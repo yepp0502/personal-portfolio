@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# My Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio! This project showcases my academics, work, skills, and accomplishments in a creative and interactive way.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Header Section**: Hover over the 'Portfolio' section to see a creative animation and click on it to access my resume.
+- **Interactive 3D Room**: Hover over the 'Workplace' and 'Painting' section within the 3D room element to see a creative animation; click on the small button in the coffee machine within the 3D room element for an enhanced experience.
 
-### `npm start`
+## How to Use
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Landing Page
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Click **here** to view the home page.
 
-### `npm test`
+### Home
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Hover on the header bottom part 'portfolio' to see a creative highlighted animation and click on that header to access my resume.
 
-### `npm run build`
+- Click on one of the navigation links **education**, **projects**, or **work experience** to access those pages.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 3D Room Interaction
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- For a unique interactive experience, hover over the 'Workplace' and 'Painting' section and click on the small button of the 'coffee machine' within the 3D room element.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Education
 
-### `npm run eject`
+- Click on one of the two small buttons to see both my briefly recorded college and high school academic experience.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Projects
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Click on one of the buttons under years to see the projects created in the respective years.
+  
+- Click on one of the two small buttons next to the project explanation to see both projects created in the respective year.
+  
+- Click on the project name to access that respective project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To view and interact with this portfolio locally:
 
-## Learn More
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yepp0502/personal-portfolio.git
+   
+2. Navigate to the project directory:
+   ```bash
+   cd your-repo-name
+   
+3. Install dependencies:
+   ```bash
+   npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Start the development server:
+   ```bash
+   npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. Open your browser and go to `http://localhost:3000` to view the portfolio.
 
-### Code Splitting
+## Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This portfolio is deployed using GitHub Pages. You can view it live at:
+`https://github.com/yepp0502/personal-portfolio.git`
 
-### Analyzing the Bundle Size
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- React
+- React Router
+- Three.js (for 3D room interaction)
+- CSS for styling
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
-### Advanced Configuration
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+For any inquiries or feedback, please reach out to me at `pyoungeon@gmail.com`.
 
-### Deployment
+Thank you for visiting my portfolio!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
