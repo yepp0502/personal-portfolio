@@ -57,7 +57,7 @@ To view and interact with this portfolio locally:
 ## Deployment
 
 This portfolio is deployed using GitHub Pages. You can view it live at:
-[https://yepp0502.github.io/personal-portfolio/]
+[https://yepp0502.github.io/personal-portfolio/](https://yepp0502.github.io/personal-portfolio/)
 
 ## Technologies Used
 
@@ -68,11 +68,11 @@ This portfolio is deployed using GitHub Pages. You can view it live at:
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE] file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/facebook/react/blob/main/README.md#react-----) file for details.
 
 ## Contact
 
-For any inquiries or feedback, please reach out to me at [pyoungeon@gmail.com].
+For any inquiries or feedback, please reach out to me at [pyoungeon@gmail.com](pyoungeon@gmail.com).
 
 Thank you for visiting my portfolio!
 
