@@ -14,6 +14,7 @@ Welcome to my personal portfolio! This project showcases my academics, work, ski
 - Click **here** to view the home page.
 
 ### Home
+
 - Hover on the header bottom part 'portfolio' to see a creative highlighted animation and click on that header to access my resume.
 - Click on one of the navigation links **education**, **projects**, or **work experience** to access those pages.
 
@@ -28,9 +29,7 @@ Welcome to my personal portfolio! This project showcases my academics, work, ski
 ### Projects
 
 - Click on one of the buttons under years to see the projects created in the respective years.
-  
 - Click on one of the two small buttons next to the project explanation to see both projects created in the respective year.
-  
 - Click on the project name to access that respective project.
 
 ## Getting Started
@@ -58,7 +57,7 @@ To view and interact with this portfolio locally:
 ## Deployment
 
 This portfolio is deployed using GitHub Pages. You can view it live at:
-`https://yepp0502.github.io/personal-portfolio/`
+[https://yepp0502.github.io/personal-portfolio/]
 
 ## Technologies Used
 
@@ -69,11 +68,11 @@ This portfolio is deployed using GitHub Pages. You can view it live at:
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE] file for details.
 
 ## Contact
 
-For any inquiries or feedback, please reach out to me at `pyoungeon@gmail.com`.
+For any inquiries or feedback, please reach out to me at [pyoungeon@gmail.com].
 
 Thank you for visiting my portfolio!
 
