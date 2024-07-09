@@ -1,0 +1,15 @@
+{
+  "short_name": "Portfolio",
+  "name": "Personal Portfolio",
+  "icons": [
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#FFFFFF",
+  "background_color": "#D46448"
+}
