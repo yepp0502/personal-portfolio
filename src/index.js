@@ -6,15 +6,44 @@ import Home from './Pages/Home'
 import Education from './Pages/Education';
 import Projects from './Pages/Projects'
 import WorkExperience from './Pages/WorkExperience'
+import LandingPage from './Pages/LandingPage';
 import Header from './Layout/Header'
 import RoomElement from './Layout/RoomElement';
 import reportWebVitals from './reportWebVitals';
+
+// function App() {
+//   return (
+//     <BrowserRouter>
+//       <Routes>
+//         <Route path="/" element={<Home />} />
+//         <Route element={<Header />}>
+//           <Route path="/education" element={<Education />} />
+//           <Route path="/projects" element={<Projects />} />
+//           <Route path="/work-experience" element={<WorkExperience />} />
+//         </Route>
+//       </Routes>
+//       {/* <RoomElement /> */}
+//     </BrowserRouter>
+//   );
+//  }
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/*"element={<MainLayout />} />
+      </Routes>
+    </BrowserRouter>
+  );
+ }
+ 
+ 
+ const MainLayout = () => {
+  return (
+    <>
+      <Routes>
+        <Route path="/home" element={<Home />} />
         <Route element={<Header />}>
           <Route path="/education" element={<Education />} />
           <Route path="/projects" element={<Projects />} />
@@ -22,10 +51,9 @@ function App() {
         </Route>
       </Routes>
       <RoomElement />
-    </BrowserRouter>
+    </>
   );
- }
-
+ };
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

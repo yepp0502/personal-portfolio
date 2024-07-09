@@ -18,26 +18,26 @@
 
 .header-container .links {
     position: absolute;
-    width: 15em;
-    margin: 30vh 0 0 80%;
+    width: 13.5em;
+    margin: 28.5vh 0 0 82%;
     display: block;
 }
 
 .header-container .links .nav-el {
     display: block;
-    margin-top: 5px;
+    margin-top: 8px;
     font-size: 36px;
+    text-align: end;
 }
 
 #edu-label {
     width: 3.8em;
-    margin-left: 2.8em;
+    margin-left: 2.2em;
 }
 #pro-label{
     width: 3em;
-    margin-left: 3.6em;
+    margin-left: 3em;
 }
 #work-label{
     width: 6em;
-    margin-left: 0.6em;
 }

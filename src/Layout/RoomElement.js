@@ -42,7 +42,7 @@ export default function RoomElement() {
     
     useEffect(() => {
         switch (location.pathname) {
-            case '/':
+            case '/home':
                 setPosition({ top: '1em', left: '30.5vh' });
                 setVisibility('visible');
                 enlargeObj();
@@ -58,7 +58,7 @@ export default function RoomElement() {
                 resizeObj();
                 break;
             case '/work-experience':
-                setPosition({ top: '12.5em', left: '23em' });
+                setPosition({ top: '12.5em', left: '23.5em' });
                 setVisibility('visible');
                 resizeObj();
                 break;

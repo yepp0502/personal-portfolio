@@ -2,7 +2,7 @@
     /* border: 1px dotted black; */
     position: absolute;
     font-family: "Gupter", serif;
-    margin: -21.5em 0 0 -70em;
+    margin: -21.5em 0 0 -72em;
     background-color: transparent;
     width: 57em;
 }
@@ -181,7 +181,7 @@
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 7px;
     margin-left: 1.5em;
-    margin-top: 1.8em;
+    margin-top: 2.15em;
 }
 
 .help-container #flash {
