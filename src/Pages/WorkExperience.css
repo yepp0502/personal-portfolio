@@ -1,0 +1,39 @@
+.workexperience-container {
+    /* border: 1px solid black; */
+    position: absolute;
+    background-color: transparent;
+    width: 70em;
+    margin-left: -58em;
+    margin-top: -20em;
+    font-size: 18.5px;
+    line-height: 1.05em;
+    font-family: "Gupter", serif;
+    text-align: start;
+    display: block;
+}
+
+.workexperience-container .highskl-container{
+    display: flex;
+    justify-content: space-around;
+    width: 65em;
+    margin: 0 auto;
+    opacity: 0;
+    animation: fade-in 2s 0.5s ease-in-out forwards;
+}
+
+.workexperience-container .highskl-container .info {
+    width: 28.5em;
+}
+
+.workexperience-container .highskl-container .info .content {
+    margin-left: 0.8em;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100%;
+    }
+}

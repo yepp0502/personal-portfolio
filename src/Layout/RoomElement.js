@@ -58,7 +58,7 @@ export default function RoomElement() {
                 resizeObj();
                 break;
             case '/work-experience':
-                setPosition({ top: '10.5em', left: '23em' });
+                setPosition({ top: '12.5em', left: '23em' });
                 setVisibility('visible');
                 resizeObj();
                 break;
